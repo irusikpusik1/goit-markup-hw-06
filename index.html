@@ -333,6 +333,19 @@
       </a></li>
      </ul>
      </div>
+     <div>
+      <label class="label label-footer" for="user-email">Subscribe</label>
+        <div class="contact-form-all">
+         <input class="input-all input-all-footer" id="user-name" type="email" name="user-name"id="user-comment" placeholder="E-mail"/>
+          </div>
+     </div>
+     <div class="button-submit-bloc button-submit-bloc-footer">
+      <button class=" button-footer" type="submit">Subscribe
+        <svg class=" icon-footer">
+          <use href="./images/icons.svg#icon-frame"></use>
+        </svg>
+      </button>
+    </div>
    </div>
   </footer>
 <div class="backdrop is-hidden"data-modal>
@@ -346,50 +359,58 @@
       
     <h2 class="name-modal">Leave your contacts and we will call you back</h2>
     
-    <form name="contact-form" autocomplete="off"novalidate >    
-
-             
+    <form  name="contact-form" autocomplete="off"novalidate >  
+       <div class="label" >              
       <label class="label" for="user-name">Name
       <div class="contact-form-all">
-         <input class="input-all" id="user-name" type="text" name="user-name"id="user-comment" />
+         <input class="input-all" id="user-name" type="text" name="user-name"id="user-comment" autofocus required />
           <svg class="contact-form-icon" >
             <use href="./images/icons.svg#icon-person"></use>
           </svg>
-          </div></label>
-
-         <label class="label" for="user-phone">Phone
+          </div>
+        </label>
+         </div> 
+          <div class="label">
+          <label class="label" for="user-phone">Phone
          <div class="contact-form-all">
-         <input class="input-all" id="user-name" type="text" name="user-name"id="user-comment" />
+         <input class="input-all" id="user-name" type="tel" name="user-name"id="user-comment" />
           <svg class="contact-form-icon" >
-            <use href="./images/icons.svg#icon-phone"></use>
+            <use class="icon" href="./images/icons.svg#icon-phone"></use>
           </svg>
-          </div></label>
-
-        
+          </div>
+        </label>
+         </div>
+        <div class="label">
          <label class="label" for="user-email">Email
          <div class="contact-form-all">
-          <input class="input-all" id="user-name" type="text" name="user-name"id="user-comment" />
+          <input class="input-all" id="user-name" type="email" name="user-name"id="user-comment" />
            <svg class="contact-form-icon" >
              <use href="./images/icons.svg#icon-email"></use>
            </svg>
            </div></label>
-         </form>
+           </div>       
+         <div class="label">
+         <label class="label-textarea-all " for="user-comment">Comment
+         <textarea class="textarea"name="user-comment" id="user-comment"placeholder="Text input"></textarea></label>   
+              </div>
 
-          <form class="label-comment">
-         <label class="label textarea-all " for="user-comment">Comment
-         <textarea class="textarea"name="user-comment" id="user-comment"placeholder="Text input"
-         ></textarea></label>
-        </form>
 
-        <form class="rivat-all">
-          <p class="rivat">I accept the terms and conditions of the Privacy Policy</p>
-        </form>
-
-        <div class="button-submit-bloc">
+           <div class="form-checkbox label">
+            <label class="checkbox-labe">Iaccept the terms and conditions of the
+            <a class="privacy-policy" href="">Privacy Policy</a>
+           <input class="rivat-all"id="terms-conditions" type="checkbox" name="terms-conditions" checked >
+           <svg  class="checkbox-icon">
+            <use href="./images/icons.svg#icon-vecto"></use>
+           </svg>
+           <span class="checkbox-icon"></span>
+            </label>
+            </div>
+         
+        <div class="button-submit-bloc label">
           <button class="button-submit test-button" type="submit">Send</button>
         </div>
-  
-      
+   
+      </form>
 </div>
   <script src="./js/modal.js"></script>
  </body>
