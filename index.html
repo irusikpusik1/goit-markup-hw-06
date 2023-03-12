@@ -13,7 +13,7 @@
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" 
   integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
   crossorigin="anonymous"
-  referrerpolicy="no-referrer" />
+  referrerpolicy="no-referrer"/>
 
   <link rel="stylesheet" href="./css/styles.css">
 </head>
@@ -43,7 +43,7 @@
     <div class="container">
       <h1 class="main-title">Effective Solutions <br/>
         for Your Business</h1>
-        <button  type="button"class="test-button"data-modal-open>Order Service</button>
+        <button  type="button" class="test-button" data-modal-open>Order Service</button>
     </div>
    </section>   
       <section class="section">
@@ -105,12 +105,11 @@
       <div class="container">
       <h2 class="section-styl">Our Team</h2>
       <ul class="container-section-fon">              
-        <li class="section-fon" >
+        <li class="section-fon">
           <img src="./images/img1.jpg" alt="Mark" width="264" height="260"/>
          <div class="total-info">
           <h3 class="section-title">Mark Guerrero</h3>
           <p class="section-text">Product Designer</p>   
-
          <ul class="social-list">
           <li class="social-item">
             <a class="social-link" href="">
@@ -135,10 +134,8 @@
             <svg class="social-icon">
               <use href="./images/icons.svg#icon-linkedin"></use>
             </svg>
-          </a></li>
-         </ul>
-
-          </div>
+          </a></li></ul>
+         </div>
         </li>
         <li class="section-fon">
           <img src="./images/img2.jpg" alt="Tom" width="264" height="260"/>
@@ -173,7 +170,7 @@
            </ul>
           </div>
         </li>
-        <li class="section-fon" >
+        <li class="section-fon">
            <img src="./images/img3.jpg" alt="Camila" width="264" height="260"/>
            <div class="total-info">
             <h3 class="section-title">Camila Garcia</h3>
@@ -238,10 +235,8 @@
                 </a></li>
                </ul>
               </div>
-            </li>
-            </div>
-      </ul>  
-      
+            </li>          
+       </ul>       
         </div>                           
     </section>   
       <section class="section-customers">
@@ -333,88 +328,73 @@
       </a></li>
      </ul>
      </div>
-     <div>
-      <h3 class="label label-footer" for="user-email">Subscribe</h3>
-        <div class="contact-form-all">
-         <input class="input-all input-all-footer" id="user-name" type="email" name="user-name"id="user-comment" placeholder="E-mail"/>
-          </div>
-     </div>
-     <div class="button-submit-bloc button-submit-bloc-footer">
-      <button class=" button-footer" type="submit">Subscribe
+<form  action="#">
+  <p class="title footer-form-title">Subscribe</p>
+  <div class="form-footer">
+  <label class="button-submit-bloc-footer" for="email">
+    <input class="input-all-footer mail" id="email" type="email" name="name" placeholder="E-mail"/>     
+  </label>
+  <button class=" button-footer" type="submit">Subscribe
         <svg class=" icon-footer">
           <use href="./images/icons.svg#icon-frame"></use>
         </svg>
-      </button>
-    </div>
+      </button></div>     
+</form>   
    </div>
   </footer>
-<div class="backdrop is-hidden"data-modal>
+<div class="backdrop is-hidden" data-modal>
   <div class="modal">
-    <button class="modal-close" type="button"data-modal-close>
+    <button class="modal-close" type="button" data-modal-close>
     <svg class="close-icon">
       <use href="./images/icons.svg#icon-close"></use>
-    </svg></button>
-    
-     <div class="name-modal-box"> 
-      
-    <h2 class="name-modal">Leave your contacts and we will call you back</h2>
-    
-    <form  name="contact-form" autocomplete="off"novalidate >  
-       <div class="label" >              
-      <label class="label" for="user-name">Name
-      <div class="contact-form-all">
-         <input class="input-all" id="user-name" type="text" name="user-name"id="user-comment" autofocus required />
+    </svg>
+  </button> 
+     <form name="contact-form" autocomplete="off" novalidate>  
+     <div class="name-modal-box">      
+    <p class="name-modal">Leave your contacts and we will call you back</p>                    
+      <label class="label" for="user-person">Name     
+         <input class="input-all" id="user-person" type="text" name="name"/>
           <svg class="contact-form-icon" >
             <use href="./images/icons.svg#icon-person"></use>
-          </svg>
-          </div>
+          </svg>         
         </label>
-         </div> 
-          <div class="label">
-          <label class="label" for="user-phone">Phone
-         <div class="contact-form-all">
-         <input class="input-all" id="user-name" type="tel" name="user-name"id="user-comment" />
+         <label class="label" for="user-phone">Phone       
+         <input class="input-all" id="user-phone" type="text" name="name"/>
           <svg class="contact-form-icon" >
-            <use class="icon" href="./images/icons.svg#icon-phone"></use>
-          </svg>
-          </div>
-        </label>
-         </div>
-        <div class="label">
-         <label class="label" for="user-email">Email
-         <div class="contact-form-all">
-          <input class="input-all" id="user-name" type="email" name="user-name"id="user-comment" />
+            <use href="./images/icons.svg#icon-phone"></use>
+          </svg>         
+        </label>            
+         <label class="label" for="user-email">Email        
+          <input class="input-all" id="user-email" type="text" name="name"/>
            <svg class="contact-form-icon" >
              <use href="./images/icons.svg#icon-email"></use>
-           </svg>
-           </div></label>
-           </div>       
-         <div class="label">
-         <label class="label-textarea-all " for="user-comment">Comment
-         <textarea class="textarea"name="user-comment" id="user-comment"placeholder="Text input"></textarea></label>   
-              </div>
-              <div class="label">
-                <input class="input-checkbox" type="checkbox" name="checkbox" id="">
-                 <label class="checkbox-labe">Iaccept the terms and conditions of the
-                <a class="privacy-policy" href="">Privacy Policy</a>
-                   </div>
-           <!-- <div class="form-checkbox label">
-            <label class="checkbox-labe">Iaccept the terms and conditions of the
-            <a class="privacy-policy" href="">Privacy Policy</a>
-           <input class="rivat-all"id="terms-conditions" type="checkbox" name="terms-conditions" checked >
-           <svg  class="checkbox-icon">
-            <use href="./images/icons.svg#icon-vecto"></use>
-           </svg>
-           <span class="checkbox-icon"></span>
-            </label>
-            </div>-->
-         
-        <div class="button-submit-bloc label">
+           </svg>          
+          </label>                 
+         <label class="label textarea-all " for="user-comment">Comment
+         <textarea class="textarea text-form" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
+        </label>
+          </div>
+           <div class="form-checkbox label">        
+            <label class="checkbox-labe"> Iaccept the terms and conditions of the
+             <input class="rivat-all" id="terms-conditions" type="checkbox" name="terms-conditions" checked> 
+                   <svg class="checkbox-icon">
+               <use href="./images/icons.svg#icon-vecto"></use>
+              </svg>      
+              <a class="privacy-policy" href="">Privacy Policy</a>                   
+              </label>
+            </div>
+        <div class="button-submit-bloc">
           <button class="button-submit test-button" type="submit">Send</button>
         </div>
-   
-      </form>
-</div>
+         </form>
+    </div>                          
+      </div> 
   <script src="./js/modal.js"></script>
  </body>
 </html>
+
+
+
+
+
+ 
