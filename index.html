@@ -35,6 +35,9 @@
       </ul>
     </address>
     </div>
+    <div class="header-container-mobail">
+      
+    </div>
     </div>
   </header>
   <main>
@@ -330,7 +333,7 @@
   <p class="title footer-form-title">Subscribe</p>
   <div class="form-footer">
   <label class="button-submit-bloc-footer" for="email">
-    <input class="input-all-footer mail" id="email" type="email" name="name" placeholder="E-mail"/>     
+    <input class="input-all-footer mail" id="email" type="email" name="name" placeholder="E-mail"required/>     
   </label>
   <button class=" button-footer" type="submit">Subscribe
         <svg class=" icon-footer">
@@ -348,22 +351,22 @@
       <use href="./images/icons.svg#icon-close"></use>
     </svg>
   </button>  
-     <form name="contact-form" autocomplete="off" novalidate>       
+     <form name="contact-form" autocomplete="off">       
         <p class="name-modal">Leave your contacts and we will call you back</p>               
       <label class="label" for="user-person">Name     
-         <input class="input-all" id="user-person" type="text" name="name"/>
+         <input class="input-all" id="user-person" type="text" name="name" required/>
           <svg class="contact-form-icon" >
             <use href="./images/icons.svg#icon-person"></use>
           </svg>         
         </label>
          <label class="label" for="user-phone">Phone       
-         <input class="input-all" id="user-phone" type="text" name="name"/>
+         <input class="input-all" id="user-phone" type="text" name="name" required/>
           <svg class="contact-form-icon" >
             <use href="./images/icons.svg#icon-phone"></use>
           </svg>         
         </label>            
          <label class="label" for="user-email">Email        
-          <input class="input-all" id="user-email" type="text" name="name"/>
+          <input class="input-all" id="user-email" type="text" name="name" required/>
            <svg class="contact-form-icon">
              <use href="./images/icons.svg#icon-email"></use>
            </svg>          
@@ -372,7 +375,7 @@
          <textarea class="textarea text-form" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
         </label>                   
             <label class="checkbox-labe label"> Iaccept the terms and conditions of the
-             <input class="rivat-all" id="terms-conditions" type="checkbox" name="terms-conditions"> 
+             <input class="rivat-all" id="terms-conditions" type="checkbox" name="terms-conditions" required> 
                    <svg class="checkbox-icon">
                <use href="./images/icons.svg#icon-vecto"></use>
               </svg>      
